@@ -12,6 +12,7 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "strUibankUrl&Sequence_1",
         "strCaminhoArquivo&Sequence_1",
         "tabPedidos&Sequence_2",
         "strTextoTabela&Sequence_2"
