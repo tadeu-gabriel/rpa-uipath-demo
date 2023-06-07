@@ -11,7 +11,16 @@
     {
       "Path": "Main.xaml",
       "SortBy": 0,
-      "VariablesSectionElementsOrder": [],
+      "VariablesSectionElementsOrder": [
+        "strUibankUrl&Sequence_3",
+        "strUibankUrl&Sequence_1",
+        "strIdApr&Sequence_8",
+        "strAPR&Sequence_8",
+        "intCounter&Sequence_4",
+        "tabPedidoEmprest&Sequence_3",
+        "strExtPedidosEmprest&Sequence_2",
+        "strFilePath&Sequence_1"
+      ],
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
