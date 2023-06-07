@@ -21259,15 +21259,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Gabriel\\.nuget\\packages\\": {}
+    "C:\\Users\\User_Nbcc\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "UiBankCadastro",
       "projectName": "UiBankCadastro",
-      "projectPath": "C:\\Users\\Gabriel\\Documents\\UiPath\\UiPath - Projeto U\\UiBankCadastro\\.local",
-      "packagesPath": "C:\\Users\\Gabriel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gabriel\\Documents\\UiPath\\UiPath - Projeto U\\UiBankCadastro\\.local"
+      "projectPath": "C:\\Git\\rpa-uipath-demo\\.local",
+      "packagesPath": "C:\\Users\\User_Nbcc\\.nuget\\packages\\",
+      "outputPath": "C:\\Git\\rpa-uipath-demo\\.local"
     },
     "frameworks": {
       "net6.0-windows7.0": {
@@ -21298,7 +21298,7 @@
             "version": "[23.4.4, 23.4.4]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\Gabriel\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\User_Nbcc\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
       }
     },
     "runtimes": {
