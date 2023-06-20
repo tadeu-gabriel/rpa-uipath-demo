@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GIEDt3TsiylpLTlHEtGKjCTtVv/iblIY4Ghw5Exy4S86OO9QMuLg/vqSBH80igbsSd6nRmLyMp05WkaAQC0Fcw==",
+  "dgSpecHash": "8rn7jRPVOZ3jLb8MFZOPtUre4im9Loap1vkpwvfwAJ769QjGRt5vCm7SijzD2P+QYayKL8rQ3Ly7lLVlapBAHQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Gabriel\\Documents\\UiPath\\GIT\\HackathonTest\\.local\\",
+  "projectFilePath": "C:\\GIT\\rpa-uipath-demo\\HackathonTest\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\Gabriel\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\Gabriel\\.nuget\\packages\\azure.core\\1.18.0\\azure.core.1.18.0.nupkg.sha512",

@@ -20945,9 +20945,9 @@
     "restore": {
       "projectUniqueName": "HackathonTest",
       "projectName": "HackathonTest",
-      "projectPath": "C:\\Users\\Gabriel\\Documents\\UiPath\\GIT\\HackathonTest\\.local",
+      "projectPath": "C:\\GIT\\rpa-uipath-demo\\HackathonTest\\.local",
       "packagesPath": "C:\\Users\\Gabriel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gabriel\\Documents\\UiPath\\GIT\\HackathonTest\\.local"
+      "outputPath": "C:\\GIT\\rpa-uipath-demo\\HackathonTest\\.local"
     },
     "frameworks": {
       "net6.0-windows7.0": {
