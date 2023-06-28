@@ -1,19 +1,18 @@
 {
-  "name": "HackathonTest",
-  "projectId": "c11a5f4c-c3a2-4fc3-a6c3-83db9c250954",
-  "description": "RPA Development to type into dinamic fields on the https://www.rpahackathon.co.uk/challenge/",
+  "name": "DesafioAutomação",
+  "projectId": "bdf6b1d6-87f7-41f0-b898-0ce706e73d16",
+  "description": "Processo em Branco",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.20.2]",
-    "UiPath.Mail.Activities": "[1.20.0]",
-    "UiPath.System.Activities": "[23.4.3]",
-    "UiPath.Testing.Activities": "[23.4.1]",
-    "UiPath.UIAutomation.Activities": "[23.4.6]"
+    "UiPath.Excel.Activities": "[2.9.5]",
+    "UiPath.Mail.Activities": "[1.9.5]",
+    "UiPath.System.Activities": "[20.10.3]",
+    "UiPath.UIAutomation.Activities": "[20.10.9]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
-  "studioVersion": "23.4.2.0",
+  "studioVersion": "20.10.5.0",
   "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
@@ -30,7 +29,7 @@
     "executionType": "Workflow",
     "readyForPiP": false,
     "startsInPiP": false,
-    "mustRestoreAllDependencies": true,
+    "mustRestoreAllDependencies": false,
     "pipType": "ChildSession"
   },
   "designOptions": {
@@ -50,7 +49,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "b1d318b5-5ee2-4d8b-8795-afe94d0150f3",
+      "uniqueId": "151b084f-12cd-47d1-8cba-ee571a35301d",
       "input": [],
       "output": []
     }
@@ -58,5 +57,5 @@
   "isTemplate": false,
   "templateProjectData": {},
   "publishData": {},
-  "targetFramework": "Windows"
+  "targetFramework": "Legacy"
 }

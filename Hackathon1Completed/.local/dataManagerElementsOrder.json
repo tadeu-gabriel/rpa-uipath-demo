@@ -5,19 +5,20 @@
       "SortBy": 0,
       "VariablesSectionElementsOrder": [],
       "ArgumentsSectionElementsOrder": null,
-      "ConstantsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
       "AddedNamespaces": null
     },
     {
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "str_dt_rpaHakathon&Sequence_2",
-        "dt_rpaHakathon&Sequence_6",
-        "str_InfoFicheiro&Sequence_2"
+        "ficheiroCsv&Sequence_3",
+        "dt_desafioAutomacao&Sequence_3",
+        "strCsvTexto&Sequence_6",
+        "strtPopup&Sequence_8"
       ],
       "ArgumentsSectionElementsOrder": [],
-      "ConstantsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
       "AddedNamespaces": null
     }
   ]

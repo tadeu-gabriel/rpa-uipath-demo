@@ -1,0 +1,399 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1236,4016" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:si="clr-namespace:System.IO;assembly=mscorlib" xmlns:ucat="clr-namespace:UiPath.Core.Activities.TextModifications;assembly=UiPath.System.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="39">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.CSV</x:String>
+      <x:String>UiPath.CSV.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>UiPath.Core.Activities.TextModifications</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="24">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="990,3851" sap2010:WorkflowViewState.IdRef="Sequence_4">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Hackatlon - Level01 - Init" sap:VirtualizedContainerService.HintSize="948,3759" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="Simulate" Version="V1">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Fazer" sap:VirtualizedContainerService.HintSize="914,3542" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="si:FileInfo" Name="ficheiroCsv" />
+              <Variable x:TypeArguments="sd:DataTable" Name="dt_desafioAutomacao" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Sequence DisplayName="Download e Leitura CSV" sap:VirtualizedContainerService.HintSize="872,68" sap2010:WorkflowViewState.IdRef="Sequence_6">
+              <Sequence.Variables>
+                <Variable x:TypeArguments="x:String" Name="strCsvTexto" />
+              </Sequence.Variables>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:GetLastDownloadedFile Timeout="{x:Null}" DisplayName="Wait for Download" DownloadFolder="C:\Users\mmc\Downloads" File="[ficheiroCsv]" sap:VirtualizedContainerService.HintSize="434,52" sap2010:WorkflowViewState.IdRef="GetLastDownloadedFile_1">
+                <ui:GetLastDownloadedFile.Body>
+                  <ActivityAction>
+                    <Sequence DisplayName="Fazer" sap:VirtualizedContainerService.HintSize="200,68" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <uix:NClick ClickType="Single" DisplayName="Click 'Download CSV'" sap:VirtualizedContainerService.HintSize="334,167" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="https://www.rpahackathon.co.uk/l1" DesignTimeRectangle="600, 422, 356, 48" ElementType="Text" FriendlyName="'Download CSV'" FullSelectorArgument="&lt;webctrl tag='A' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='A' type='button' aaname='Download CSV' check:text='Download CSV' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAWgAAAA0CAYAAACn3qLtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAebSURBVHhe7dw9TxtJGAfw+zhJn08QcalDHySaIKW4LlTu0qAUSJEoLBqoLApcBLmIEsmKjKU46EQsRbEvyCsIOMLixQnYRqwF4rl5dme8b7NmTQ4y3vuv9CvwzK7Xtvzf8bMz/HFw/JMAAMA8CGgAAENFAjpbXaGHr5/Q/ZVHdG/lTwAAuEWctZy5nL3hPA4E9NNihh6sPtYeBAAAbg9nL2ewP5MHAc3pjXAGAPh9OIP9I+lBQPMQW7cDAADcHc7iSECj5gwA8PtxFkcCWtcRAADuHgIaAMBQCGgAAEMhoAEADIWABgAwFAIaAMBQCGgAAEMhoAEADIWABgAwFAIaAMBQCGgAAEMhoAEADIWAToPtXYrb7H6brIM39OKtZr9x8KlKHfE6OgeL+vY7tUiVvjiZfpVeats13s5Tbn+Xjvq8o9yu+mTbu1SxFmgy3L8wR9lmI6b/Ik0X3H4zey2nydqeDe6vNUv5U+7donfrunYwFQI6DZyA7pO1X6TCjt8GVXtd/maKrUv1rYx+f5ONcUBPVDfo6NJ586nTq1FJfS77NWra7uN0XqXse7lPQRz/3H040H+vStaZDOx+g3IcsoU1ql+Jv883KBN63oiP4jxEV/vHKk3o2sFYCOg0cAK6S5VPmja2vkpVJxD6VP86pe9jqnEN6PU3ZHE4X4pR69/693xys0zNnneszH7b+Yysbf2FdOKDCOXzBi3JUfSrQ+dkqPo52tfP7dem0kd9O5gLAZ0G1wU0Wy9Sk0dco/w8N8GYBvQgPL8kvSDOUYlHzxc1ymrbNd6Lz1TsQj/W4kfGaqTdLdK0rh2MhoBOgyQBLXihEWoTI+zSaZds/iLzdtWnzukGLX3wwmViq+E0Nfc0NU8ZotqgUAFx+sZtK7ihwoE7uVkky+Zzklu/RZV/QqPHuIAuLFCh3aaOLCHw1jlrUGHzWbCf4xm92NkN9uXXtx4XuKH+6v2I7R+2mrz8MDBL73r8XA3KyRHy9aYo94NPsEUFVSYJyXx3R+Vj98sJHAjoNEgY0Pcs7kd09H3Oe0z9FL/qknVQljXShqydimNW1Rd7maoX4iEROs/VvpIb/GLThIsK9vqWOo54PvG33WvR0YUI5K0F+qs4SzObOSp1+Tih16ELaK7VypLNUXvDq9M6pxEuEUzRywO3Dm+fN2Rdt0wVcUEie5eakcCdpfyJ+3qS9deQ52wf5/TtMdwwFft1NyjruzgO9blG/FbYh8uadu8zS36hAJMgoNMgaUBHwm6WCk52takUrpOqkojvy62vZbohYJ+1naCwtv3HmXJnDwR+trsBra2JVuTNLH+waQJa/RKob4VGyxzc3HTp1WkHASZG8DP+vr7gDgTuqP11vroXpcio/1oZWjpoOc/vbDwD53CD8rUFmomdhSM/wyEXx+a3JDM9wEQI6DS4aUC/Lw+tYWaPOe3EcTflY3I2wNH+vNfPCSO+USXD0V/rlDXS4OhOBrRmJD5oE+E4eCwS0Lmho8JpNf3Mcv92X0PMDTL1+n2BO2p/rRsHtPR2nrI7PHPDV3YSW6dXDZSdFH0Qy+D2X6xg7CCg0+CmJQ7N6DTAOS6PitVj8+6NrEFAyRqo/NudheDVQ6e/cViGz0sTwsPaIuc4bH8h1N+d/7tL+XA/R7SmPGp/LXkOo5Y44kyuL1NejKz5mHQpzi0yl1lTypDnELiYwthBQKdBwoB2R4e+aVkjB7QaocrnkjcAByEgSxTujUR50ysy0v0fBPSNbhJeT42UO62FSJt7MVQ3A6+/eQjjAQGdBkkCWjfNblDiWI32FyIlDuYrW7ih0KZSRbV7ofxchnXghqTjVwPaK3FESyRDShyDc/QZVuLQ9ZczUK4P6JtMs0tg2AXVP51OfUZYmDL2ENBpcE1AT3xQC1VEn8GsDKZuEmqWAKvZHZFRoLrx16A679srB+bXqtCut4PlDs+vBvSQ8FOzO/w3zNRNv+NcKKyG3yTk5wuHm1penSSgky1UKZJ1ot7fWcq3W1T5OhcTqt75ejNigtRNXPe9j6mjw1hBQKeBE9Capd57Vaqrpd5XMUu9B0Eivthi/9zWmtivRs3INDuP+qnNW2SGQEGGLG/axRG/HtDeNLsuNQ/KlBfnnN/ZiJlmlxEXFKeB7F6N3llrlLOKVDoR74t4zUdO1vsD1wvCzkmZsptz4tfAMuUPW2RfdqnDo/ckAS0MW+rtLd2u0ZJzEVsUvz7kYxf8/1PklEf5OVrO6xWv4SQ8u8RHLVzhDQtTUgEBnQayVqzbEv2zpAQLVYJkjZVrtZEZAqr+GTfS+w8Cmo20UCVDr5qhhSo8IyLpQhWxuTMoktagfUb6Z0lT9PxL2fn/KbbvuZ3P42yXSrGja0W991iYkhYIaAAAQyGgAQAMhYAGADAUAhoAwFAIaAAAQyGgAQAMhYAGADAUAhoAwFAIaAAAQyGgAQAMhYAGADAUAhoAwFCRgL6/8kjbEQAA7g5ncSSgH75+ou0MAAB3h7M4EtDZ6go9WH2s3QEAAG4fZzBncSSg2dNiBiENAPAbcPZyBvszORDQjNObh9ioSQMA3D7OWs5c/8hZiQQ0AACYAQENAGCkn/QvjNMpUqqMZLcAAAAASUVORK5CYII=" InformativeScreenshot="1ea68e2413a84fa86b1ee01fa0ec51b7.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Hackatlon - Level01 - Init' /&gt;" SearchSteps="FuzzySelector, Image" Text="Download CSV" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='A' type='button' /&gt;" />
+                        </uix:NClick.Target>
+                      </uix:NClick>
+                    </Sequence>
+                  </ActivityAction>
+                </ui:GetLastDownloadedFile.Body>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:GetLastDownloadedFile>
+              <ui:MoveFile ContinueOnError="{x:Null}" Destination="C:\Users\mmc\Documents\UiPath\Projects\DesafioAutomação" DisplayName="Move File" sap:VirtualizedContainerService.HintSize="434,52" sap2010:WorkflowViewState.IdRef="MoveFile_1" Overwrite="True" Path="[ficheiroCsv.FullName]">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:MoveFile>
+              <ui:ReadTextFile Content="[strCsvTexto]" DisplayName="Read Text File" FileName="[ficheiroCsv.Name]" sap:VirtualizedContainerService.HintSize="434,80" sap2010:WorkflowViewState.IdRef="ReadTextFile_2" />
+              <ui:ModifyText DisplayName="Modify Text" sap:VirtualizedContainerService.HintSize="434,345" sap2010:WorkflowViewState.IdRef="ModifyText_3" OutputText="[strCsvTexto]" SourceText="[strCsvTexto]">
+                <ui:ModifyText.Body>
+                  <ActivityAction>
+                    <Sequence DisplayName="Fazer" sap2010:WorkflowViewState.IdRef="Sequence_15">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <ucat:FindAndReplaceTextModification DisplayName="Localizar e substituir texto" sap:VirtualizedContainerService.HintSize="382,150" sap2010:WorkflowViewState.IdRef="FindAndReplaceTextModification_2" ReplaceText="First Name;Last Name;Company Name;Role In Company;Address;E-Mail;Phone Number;" SearchText="First Name;Last Name;Company Name;Role In Company;Address;E-Mail;Phone Number" />
+                    </Sequence>
+                  </ActivityAction>
+                </ui:ModifyText.Body>
+              </ui:ModifyText>
+              <ui:WriteTextFile DisplayName="Write Text File" FileName="[ficheiroCsv.Name]" sap:VirtualizedContainerService.HintSize="434,134" sap2010:WorkflowViewState.IdRef="WriteTextFile_2" Text="[strCsvTexto]" />
+              <ui:ReadCsvFile Encoding="{x:Null}" DataTable="[dt_desafioAutomacao]" Delimitator="Semicolon" DisplayName="Read CSV" FilePath="[ficheiroCsv.Name]" sap:VirtualizedContainerService.HintSize="434,155" sap2010:WorkflowViewState.IdRef="ReadCsvFile_1" IgnoreQuotes="True">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:ReadCsvFile>
+            </Sequence>
+            <Sequence DisplayName="Inicio Desafio" sap:VirtualizedContainerService.HintSize="872,68" sap2010:WorkflowViewState.IdRef="Sequence_7">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NClick ClickType="Single" DisplayName="Click 'Select a RPA Tool'" sap:VirtualizedContainerService.HintSize="200,52" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://www.rpahackathon.co.uk/l1" DesignTimeRectangle="601, 369, 734, 36" FriendlyName="'Select a RPA Tool'" FullSelectorArgument="&lt;webctrl aria-role='textbox' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='textbox' tag='SPAN' type='' aaname='' check:text='Select a RPA Tool' /&gt;" ImageBase64="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" InformativeScreenshot="d0b596ff2e5d765ff757807267dd4885.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Hackatlon - Level01 - Init' /&gt;" SearchSteps="FuzzySelector, Image" Text="Select a RPA Tool" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='SPAN' type='' /&gt;" />
+                </uix:NClick.Target>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </uix:NClick>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'INPUT'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="200,52" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="WindowMessages" Text="UiPath[k(enter)]">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="https://www.rpahackathon.co.uk/l1" DesignTimeRectangle="605, 410, 726, 34" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='search' aaname='' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAtoAAAAmCAYAAAD6ITx4AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF/SURBVHhe7dqxisJAGIXRff+HWywWixULCysRbBSbMHKXZIiwuBvJ350Dt0gyD/Ax5KMBAACrE9oAAFDgKbSvt3vbH45ts921z69vMzMzMzP7Y2nnNHRaeq6Hdj7k0Ol8acMwjG8BAIBX0s5p6LT0PLZ7aKfCcwAAAFguLZ2mnvTQToG7yQYAgPekpdPUkx7a+b8EAAB437yphTYAAKxEaAMAQAGhDQAABYQ2AAAUENoAAFBAaAMAQAGhDQAABYQ2AAAUENoAAFBAaAMAQAGhDQAABYQ2AAAUENoAAFBAaAMAQAGhDQAABYQ2AAAUENoAAFBAaAMAQAGhDQAABYQ2AAAUENoAAFBAaAMAQAGhDQAABYQ2AAAUENoAAFDg19DebHdtGIbxCQAAWCItnaae9NDeH47tdL6MTwAAwBJp6TT1pIf29Xb/KfAccLMNAAD/k3ZOQ6el09STHtqRD6nwHMr/JWZmZmZm9npp5zT0PLLjKbQBAIB1CG0AAFhdaw+S2d6Nh9TJEgAAAABJRU5ErkJggg==" InformativeScreenshot="8e8546293956b95abf6a7a1451ba4e73.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Hackatlon - Level01 - Init' /&gt;" SearchSteps="FuzzySelector, Image" />
+                </uix:NTypeInto.Target>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </uix:NTypeInto>
+              <uix:NClick ClickType="Single" DisplayName="Click 'Start'" sap:VirtualizedContainerService.HintSize="200,52" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://www.rpahackathon.co.uk/l1" DesignTimeRectangle="980, 422, 356, 48" ElementType="Button" FriendlyName="'Start'" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' aaname='Start &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' check:text='Start' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAWgAAAA0CAYAAACn3qLtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQJSURBVHhe7dvBa9NQHMBx/yC9+xfYv2B/gQedFz0JwvA2LwPRg4eBjIkgIhRBHCK7tQx6czAou3TI2Ci2obPNsqZdk5/vpV2TNK9zHpI88Bv4gEtemtvXx8vLrV/OmQAA7EOgAcBSmUB3vr4V59k9cR7eEefBbQBAnnRrVXN1exd7nAp09/UjcR7fNf8IACA/qr26wckmzwMdzZyJMwCURzU4OZOeBzpa1jDdAAAojmpxNtCsOQNA+VSLs4E2DQQAFI5AA4ClCDQAWIpAA4ClCDQAWIpAA4ClCDQAWIpAA4ClCDQAWIpAA4ClCDQAWIpAA4ClCDTK92Jd/MOWhGOJj8CXsNeU0bfn8tt0D/AfINAo15uqTKIw+xKcNmTU2BFfO9iXwI1SrUJdE28tvsetNyUMWuInfycnRT4LWESgUaKKDI91ggcyrlYM12/L7y81CTo1cRPnvMOBuqeYaBb5LGARgUaJtuUyUP1zdqVvvG6WdzR7a/F/FgQaZSLQKNGmXPqqf/30DHmZaSxNRzKgK3LeSK9nh+2aXLzZkLGn/vAa4l2NrTYkVKcme5XUPeHhxg2fBeSLQKNEFbk41oVWUfxZlfMXpjGx3ssn4m49lYsjHc8TGal/67/drdXZi8TKPKxhvzlbz96VcVudc1sSLAb60zTQQedEQk+F97P+rXXxPty/wbOA/BFolGttXfzTeLYauidyebgrw89PpJ94MZi0dNnhy34U3LBdlUHqWhxuU6AlaMrwX58FFIBAwwq9lxsyjHZu+BLqdWl96K12pzuZmfWyaF4c6dl4V0bv0ucjr3Yl+llToI+3s+NnCDTKRKBhoYr032/K6Gd3GlBXRTUxw10WTb+tBy+LqWENehZoveacHT9FoFEmAg2ruQddXV2Z1ONzBBr/CwINu+21dHVlshefWxbN+RLHVvp85JolDgINWxFolEjNajsqfh9XDNe0VfE7uqrpdeVpNAcy/pQcq1y9JDzalF7y/F9eEv490IZnAQUg0CjPq2251MsO+tC7Nw5mn3lHn3o39TvC6AiaG+ngfm9GYRWvNd1Kt7c520etgt6ebdtz9mVU/yDD+o6M9C6RcXfpNrvrAr38WUD+CDRKtiLn9YZMeoN494Y+9A4OFVnz7Hr2YcnV+H5NzufXVsX7sfChitMwf6hyk0Bf+ywgXwQaACxFoAHAUgQaACxFoAHAUgQaACxFoAHAUgQaACxFoAHAUgQaACxFoAHAUgQaACxFoAHAUtlAP7xjHAgAKJBqcTbQz+6ZBwMAiqNanAl05+tbcR7fNd8AAMifarBucSbQWvf1IyINAGVQ7dUNTjY5FWgtmknr5Q7WpAEgf7q1qrnJmfOVTKABAHYg0ABgpTP5A94JuB5jCR7RAAAAAElFTkSuQmCC" InformativeScreenshot="4ac5a9b3f8c6d133085fcbe2d3d4f844.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Hackatlon - Level01 - Init' /&gt;" SearchSteps="FuzzySelector, Image" Text="Start" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='BUTTON' type='submit' /&gt;" />
+                </uix:NClick.Target>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </uix:NClick>
+            </Sequence>
+            <ui:ForEachRow CurrentIndex="{x:Null}" DataTable="[dt_desafioAutomacao]" DisplayName="For Each Row" sap:VirtualizedContainerService.HintSize="872,3234" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+              <ui:ForEachRow.Body>
+                <ActivityAction x:TypeArguments="sd:DataRow">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="sd:DataRow" Name="row" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="822,3084" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NCheckState Exists="{x:Null}" DisplayName="Check App State 'Hackathon Vincix Group'" sap:VirtualizedContainerService.HintSize="780,930" sap2010:WorkflowViewState.IdRef="NCheckState_1" Timeout="0.3">
+                      <uix:NCheckState.IfExists>
+                        <Sequence DisplayName="Destino aparece" sap:VirtualizedContainerService.HintSize="476,702" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                          <Sequence.Variables>
+                            <Variable x:TypeArguments="x:String" Name="strtPopup" />
+                          </Sequence.Variables>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uix:NGetText DisplayName="Get Text 'Click the'" sap:VirtualizedContainerService.HintSize="434,167" sap2010:WorkflowViewState.IdRef="NGetText_1">
+                            <uix:NGetText.Target>
+                              <uix:TargetAnchorable BrowserURL="https://www.rpahackathon.co.uk/l1/challenge" DesignTimeRectangle="585, 219, 766, 24" ElementType="Text" FriendlyName="'Click the'" FullSelectorArgument="&lt;webctrl tag='P' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='P' type='' /&gt;" ImageBase64="" InformativeScreenshot="40ef5928ea28a07b8f7079ca59a10128.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Vincix Hackathon' /&gt;" SearchSteps="FuzzySelector" Text="Click the button with the label CANCEL" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='P' type='' /&gt;" />
+                            </uix:NGetText.Target>
+                            <uix:NGetText.Text>
+                              <OutArgument x:TypeArguments="x:String">[strtPopup]</OutArgument>
+                            </uix:NGetText.Text>
+                          </uix:NGetText>
+                          <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="434,403" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <TryCatch.Try>
+                              <uix:NClick ClickType="Single" DisplayName="Click 'OK'" sap:VirtualizedContainerService.HintSize="334,167" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" Timeout="2">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="https://www.rpahackathon.co.uk/l1/challenge" DesignTimeRectangle="617, 292, 290, 38" ElementType="Button" FriendlyName="'OK'" FullSelectorArgument="&lt;webctrl aaname='OK' tag='BUTTON' /&gt;" FuzzySelectorArgument="[&quot;&lt;webctrl aaname='&quot;+strtPopup.Substring(strtPopup.LastIndexOf(&quot; &quot;) + 1)+&quot;' tag='BUTTON' type='button' check:text='&quot;+strtPopup.Substring(strtPopup.LastIndexOf(&quot; &quot;) + 1)+&quot;' /&gt;&quot;]" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAASYAAAAqCAYAAAAecfYVAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKwSURBVHhe7drBS9twGMbx/cEDTwMv0mtPBS+rMERBZKDQietBUMFDES+FCZNSqB1rdaKIoIKyBnmWt/WNiWZNka3+Dt8HPocm6a18Sdu8E2OMBTbCxBgLbpkw9U5ONV9d1MxsSe8/zAHAf2WtseZYe9JLwmQnCBKAt2DtSccpCZNVK+8NADAN1iBfEibulgC8JWuQLwlT3oUAME0+wgQgGD7CBCAYPsIEIBg+wgQgGD7CBCAYPsIEIBg+wgQgGD7CBCAYPsIEIBg+woTJlNe127rQXfT4gbFF9zprNbRczl67fx6fO29mjpnqXk93inTd2lH52TnA+AgTipW31L6JPyTRldqNuj4tVFRa+Ky1xrEuLVQ3x6ql4vQyTBUtNy80eIh01lxXKTkOZPkIEwrVOvdxlC60v5RzfqmpszhOgx87ybFsmCqqHd1qoHt191aSa4A8PsKEAg31HxR//fqSc25ktXUrPfzS7uPrpzCtaPenRe1W3+uVzHuAPD7ChPE2joe/C3W3c8657d7wjqi9MXo9CtOR9u1WKv76961GlDAZH2HCeJsWpjg6mznn3LNrhmEaLlK/8fHl9cBf+AgTxnv1HdOhvnbir3jx8X6D35YwGR9hQoE9dX+/9jemitYOr+JoRbo8rPNvHAr5CBMKTfKv3F1nKzn2FKbR69HzS3HcOjy/hPF8hAnFUs8xdQ92XvEc05xK9bauLWCnB6qmjgNpPsKEyfyDJ79Lqwfqx7dOg8sjrc1nzwHGR5gABMNHmAAEw0eYAATDR5gABMNHmAAEw0eYAATDR5gABMNHmAAEw0eYAATDl4RpZraUeyEATIM1yJeEab66mHsxAEyDNciXhKl3cspdE4A3Ye2xBvmSMNnshFWLQAGYBmuNNScdJVsmTIwxFsIIE2MssEl/AMyGFVzlrXr2AAAAAElFTkSuQmCC" InformativeScreenshot="27ba67d3529106dfdad20b526e8e0362.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Vincix Hackathon' /&gt;" SearchSteps="FuzzySelector, Image" Text="OK" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='BUTTON' type='button' /&gt;" />
+                                </uix:NClick.Target>
+                              </uix:NClick>
+                            </TryCatch.Try>
+                            <TryCatch.Catches>
+                              <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="400,237" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <ActivityAction x:TypeArguments="s:Exception">
+                                  <ActivityAction.Argument>
+                                    <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                                  </ActivityAction.Argument>
+                                  <uix:NClick ClickType="Single" DisplayName="Click '×'" sap:VirtualizedContainerService.HintSize="334,167" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left">
+                                    <uix:NClick.Target>
+                                      <uix:TargetAnchorable BrowserURL="https://www.rpahackathon.co.uk/l1/challenge" DesignTimeRectangle="1337, 153, 14, 30" ElementType="Text" FriendlyName="'×'" FullSelectorArgument="&lt;webctrl tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='SPAN' type='' aaname='×' check:text='×' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABIAAAAiCAYAAABStIn6AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADfSURBVEhL7dIxD0RAEIbh++kqjUL8Cr1Gq1VSKBSi1CgkoiB8l3G7zpplksuV+yYSsvJkzXrhTzlIzkFyDpJjUN/3mKZJPfG6rsOyLOrpmwG1bYswDJEkiRUryxK+7yPLMoYd0LquyPN8f9HzPIZphNbiOMY4jmrlk7GjO0xCKDajKxZFkYhQDKKumIRQVog6fw5ddwegs0JnJAiC4/4JY9B1sMMwPJ6m7oC2bUNRFAaiZyL9GpSxo6qq9h/SNtgzlqYp5nlWK5/YpzVNc3s6hNV1zRDKOuxfcpCcg6SANyAON4Eb2cy5AAAAAElFTkSuQmCC" InformativeScreenshot="21ccd66e807710a1350eb3fc1f6564f0.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Vincix Hackathon' /&gt;" SearchSteps="FuzzySelector, Image" Text="×" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='SPAN' type='' /&gt;">
+                                        <uix:TargetAnchorable.Anchors>
+                                          <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                            <uix:Target DesignTimeRectangle="1321, 140, 46, 56" ElementType="Button" FriendlyName="'×'" FullSelectorArgument="&lt;webctrl aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;× &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;× &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' tag='BUTTON' type='button' check:text='×' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADIAAAA8CAYAAAAkNenBAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVGhD7dWxaoNQFIDhPENa+hClhQ59i/YVmhQ6dOna0NHJFhzEp3DP4hTI0MVRKQ4O4ujiIIhQRU97ggnGJM2gpxzD+eFCxCUf957raHZ7AaewRpPLMQxpTX/X09UYXm7OtyEwsIr8G74+F/AxvYfn67PhQpq9P9xtdmbQENwZPGaDh+Axw5kZPATDC0AgnBIItwTCLYFwSyDcEgi3BMItgXBLINwSyLHiOIYsy+qn3aIogqIo6qfukUDCMARd12E+n+/FuK4LqqrCcrnsDdM7pCxLsG179UcVRdnBrBH4zjRNSNO0ftMtkh05hKFCYGQz0sYYhkGGwMggWBtDhcBIIVjzOOE6dAF0jRTSRGiatvlNgSGDtAc7SZI/b7Ou9Q6pqgocx9lCrGfi2NXcJZId8Txv9UHcN9hNjGVZkOd5/aZbZEcrCIKDtxNifN/vDYGRDvt/JhBuCYRbAuGWQLglEG4JhFsC4ZZAuCUQbgmEW6cDmTzC6+wNfgDbx2tbrWr/aAAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector, Image" Text="×" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='BUTTON' type='button' /&gt;" />
+                                          </scg:List>
+                                        </uix:TargetAnchorable.Anchors>
+                                      </uix:TargetAnchorable>
+                                    </uix:NClick.Target>
+                                  </uix:NClick>
+                                </ActivityAction>
+                              </Catch>
+                            </TryCatch.Catches>
+                          </TryCatch>
+                        </Sequence>
+                      </uix:NCheckState.IfExists>
+                      <uix:NCheckState.IfNotExists>
+                        <Sequence DisplayName="Destino não aparece" sap:VirtualizedContainerService.HintSize="250,85" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </Sequence>
+                      </uix:NCheckState.IfNotExists>
+                      <uix:NCheckState.Target>
+                        <uix:TargetAnchorable BrowserURL="https://www.rpahackathon.co.uk/l1/challenge" DesignTimeRectangle="585, 156, 160, 30" FriendlyName="'Hackathon Vincix Group'" FullSelectorArgument="&lt;webctrl tag='H5' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='H5' type='' aaname='Hackathon Vincix Group' check:text='Hackathon Vincix Group' /&gt;" ImageBase64="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" InformativeScreenshot="47ec0dce556e715eec24d66cbe28cb82.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Vincix Hackathon' /&gt;" SearchSteps="FuzzySelector" Text="Hackathon Vincix Group" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='H5' type='' /&gt;" />
+                      </uix:NCheckState.Target>
+                    </uix:NCheckState>
+                    <Sequence DisplayName="Inserir texto" sap:VirtualizedContainerService.HintSize="780,1930" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'INPUT  first_name'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,228" sap2010:WorkflowViewState.IdRef="NTypeInto_2" Text="[row(0).ToString.Replace(&quot;&quot;&quot;&quot;,&quot;&quot;)]">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="https://www.rpahackathon.co.uk/l1/challenge" DesignTimeRectangle="695, 414, 261, 38" ElementType="InputBox" FriendlyName="'INPUT  first_name'" FullSelectorArgument="&lt;webctrl id='first_name' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='first_name' tag='INPUT' type='text' aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;First Name&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAQkAAAAqCAYAAACgJ65IAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVHhe7d2xagJBFIXhvLmVbyBa+g6CNmLjAxgEIxgLF3UxwRVBsFK84UxYGd14yxQ7/wcHzGba+Ymg5O27OBpjjL0akWCMuXuIxHa3t/kys/ePpU1mn4yxhKZ7r/uvDsRduEdCv9Ch/Kuw6/VqANKie6/7rw7EobhHQgXRAQBpUwfUg0okVA/+ggCgDqgHlUjoPQkAiHpAJAC8RCQAuIgEABeRAOAiEgBcRAKAi0gANXS5XGyxWNhsNnOnMzrrIRJADU0mE2u329ZqtdzpjM56iARQQ4PBwBqNho1GI3c6o7MeIgHUUK/XCwE4nU73jcfjsPiZzuish0gANVRGItbtdsNiRAJI1HMkDoeDdTqdML0uEQkgUc+RGA6H4WdNr0tEAkhUHInb7Wb9ft+azWaYXuuZEAkgUXEkzuezrddrW61WYXqtZ0IkgETFkdhsNuEtRjw9EyIBJCqORJZl4ed4eiZEAkiULn4ZiaIobDqdPkzPhEgAiSojoQ9MKQh5nj9Mz/gwFZAwPpYNwMUXvAC4+Ko4gH9DJAC4iAQAF5EA4CISAFxEAoCLSABw/RkJ/atx/ctxAGlTB9SDSiTmy8zyr98vgABIlzqgHlQisd3tQz10gL8ogPTo3uv+qwPqQSUSZShUEB3SexLGWDrTvdf9jwOhPUSCMcaeRyQYY86O9gNbY3/1Lc4FnwAAAABJRU5ErkJggg==" InformativeScreenshot="d71f7d7b74c01b5c683d40b25ebc2699.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Vincix Hackathon' /&gt;" SearchSteps="FuzzySelector, Image" />
+                        </uix:NTypeInto.Target>
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                      </uix:NTypeInto>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'INPUT  last_name'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,228" sap2010:WorkflowViewState.IdRef="NTypeInto_3" Text="[row(1).ToString.Replace(&quot;&quot;&quot;&quot;,&quot;&quot;)]">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="https://www.rpahackathon.co.uk/l1/challenge" DesignTimeRectangle="695, 500, 261, 38" ElementType="InputBox" FriendlyName="'INPUT  last_name'" FullSelectorArgument="&lt;webctrl id='last_name' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='last_name' tag='INPUT' type='text' aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;Last Name&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAQkAAAAqCAYAAACgJ65IAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAExSURBVHhe7d0xToJRFIRR9784bZBCGgoIGEjYAMkzY5SAv8wG3jnJVLz2foGKl8/zZZiZPZtImFndQyR2h9NYb7bj7X0zXlcfZjbRcve5/3Tgvgu3SOSDPNofz+N6vQ5gLrn73H86cB+KWyRSkDwA5pYOpAeLSKQevkEA6UB6sIhEfpMARHogEsBTIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFU/0YifzWevxwH5pYOpAeLSKw327E/nn+eAbNKB9KDRSR2h9N3PfLANwqYT+4+958OpAeLSPyGIgXJo/wmMbN5lrvP/d8HInuIhJnZ34mEmZVdxhdSNwpACuaGrAAAAABJRU5ErkJggg==" InformativeScreenshot="768e0c6e0608733574e4cefbb9279e70.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Vincix Hackathon' /&gt;" SearchSteps="FuzzySelector, Image" />
+                        </uix:NTypeInto.Target>
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                      </uix:NTypeInto>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'INPUT  company_name'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,228" sap2010:WorkflowViewState.IdRef="NTypeInto_4" Text="[row(2).ToString.Replace(&quot;&quot;&quot;&quot;,&quot;&quot;)]">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="https://www.rpahackathon.co.uk/l1/challenge" DesignTimeRectangle="695, 586, 261, 38" ElementType="InputBox" FriendlyName="'INPUT  company_name'" FullSelectorArgument="&lt;webctrl id='company_name' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='company_name' tag='INPUT' type='text' aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;Company Name&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAQkAAAAqCAYAAACgJ65IAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAExSURBVHhe7d0xToJRFIRR9784bZBCGgoIGEjYAMkzY5SAv8wG3jnJVLz2foGKl8/zZZiZPZtImFndQyR2h9NYb7bj7X0zXlcfZjbRcve5/3Tgvgu3SOSDPNofz+N6vQ5gLrn73H86cB+KWyRSkDwA5pYOpAeLSKQevkEA6UB6sIhEfpMARHogEsBTIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFU/0YifzWevxwH5pYOpAeLSKw327E/nn+eAbNKB9KDRSR2h9N3PfLANwqYT+4+958OpAeLSPyGIgXJo/wmMbN5lrvP/d8HInuIhJnZ34mEmZVdxhdSNwpACuaGrAAAAABJRU5ErkJggg==" InformativeScreenshot="8b9f7efe985ee43401496881cfd76872.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Vincix Hackathon' /&gt;" SearchSteps="FuzzySelector, Image" />
+                        </uix:NTypeInto.Target>
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                      </uix:NTypeInto>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'INPUT  role_in_company'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,228" sap2010:WorkflowViewState.IdRef="NTypeInto_5" Text="[row(3).ToString.Replace(&quot;&quot;&quot;&quot;,&quot;&quot;)]">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="https://www.rpahackathon.co.uk/l1/challenge" DesignTimeRectangle="980, 414, 261, 38" ElementType="InputBox" FriendlyName="'INPUT  role_in_company'" FullSelectorArgument="&lt;webctrl id='role_in_company' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='role_in_company' tag='INPUT' type='text' aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;Role In Company&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAQkAAAAqCAYAAACgJ65IAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAExSURBVHhe7d0xToJRFIRR9784bZBCGgoIGEjYAMkzY5SAv8wG3jnJVLz2foGKl8/zZZiZPZtImFndQyR2h9NYb7bj7X0zXlcfZjbRcve5/3Tgvgu3SOSDPNofz+N6vQ5gLrn73H86cB+KWyRSkDwA5pYOpAeLSKQevkEA6UB6sIhEfpMARHogEsBTIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFU/0YifzWevxwH5pYOpAeLSKw327E/nn+eAbNKB9KDRSR2h9N3PfLANwqYT+4+958OpAeLSPyGIgXJo/wmMbN5lrvP/d8HInuIhJnZ34mEmZVdxhdSNwpACuaGrAAAAABJRU5ErkJggg==" InformativeScreenshot="a2076b47f37d18dfa94ff8df40cd1d00.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Vincix Hackathon' /&gt;" SearchSteps="FuzzySelector, Image" />
+                        </uix:NTypeInto.Target>
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                      </uix:NTypeInto>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'INPUT  address'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,228" sap2010:WorkflowViewState.IdRef="NTypeInto_6" Text="[row(4).ToString.Replace(&quot;&quot;&quot;&quot;,&quot;&quot;)]">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="https://www.rpahackathon.co.uk/l1/challenge" DesignTimeRectangle="695, 672, 261, 38" ElementType="InputBox" FriendlyName="'INPUT  address'" FullSelectorArgument="&lt;webctrl id='address' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='address' tag='INPUT' type='text' aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;Address&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAQkAAAAqCAYAAACgJ65IAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAExSURBVHhe7d0xToJRFIRR9784bZBCGgoIGEjYAMkzY5SAv8wG3jnJVLz2foGKl8/zZZiZPZtImFndQyR2h9NYb7bj7X0zXlcfZjbRcve5/3Tgvgu3SOSDPNofz+N6vQ5gLrn73H86cB+KWyRSkDwA5pYOpAeLSKQevkEA6UB6sIhEfpMARHogEsBTIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFU/0YifzWevxwH5pYOpAeLSKw327E/nn+eAbNKB9KDRSR2h9N3PfLANwqYT+4+958OpAeLSPyGIgXJo/wmMbN5lrvP/d8HInuIhJnZ34mEmZVdxhdSNwpACuaGrAAAAABJRU5ErkJggg==" InformativeScreenshot="81ed1a7be9da8293bd69f8a7067cf69f.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Vincix Hackathon' /&gt;" SearchSteps="FuzzySelector, Image" />
+                        </uix:NTypeInto.Target>
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                      </uix:NTypeInto>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'INPUT  email'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,228" sap2010:WorkflowViewState.IdRef="NTypeInto_7" Text="[row(5).ToString.Replace(&quot;&quot;&quot;&quot;,&quot;&quot;)]">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="https://www.rpahackathon.co.uk/l1/challenge" DesignTimeRectangle="695, 758, 261, 38" ElementType="InputBox" FriendlyName="'INPUT  email'" FullSelectorArgument="&lt;webctrl id='email' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='email' tag='INPUT' type='text' aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;E-Mail&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAQkAAAAqCAYAAACgJ65IAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAExSURBVHhe7d0xToJRFIRR9784bZBCGgoIGEjYAMkzY5SAv8wG3jnJVLz2foGKl8/zZZiZPZtImFndQyR2h9NYb7bj7X0zXlcfZjbRcve5/3Tgvgu3SOSDPNofz+N6vQ5gLrn73H86cB+KWyRSkDwA5pYOpAeLSKQevkEA6UB6sIhEfpMARHogEsBTIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFU/0YifzWevxwH5pYOpAeLSKw327E/nn+eAbNKB9KDRSR2h9N3PfLANwqYT+4+958OpAeLSPyGIgXJo/wmMbN5lrvP/d8HInuIhJnZ34mEmZVdxhdSNwpACuaGrAAAAABJRU5ErkJggg==" InformativeScreenshot="2b5fd975a1665bbd01ea41e0da70bc8c.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Vincix Hackathon' /&gt;" SearchSteps="FuzzySelector, Image" />
+                        </uix:NTypeInto.Target>
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                      </uix:NTypeInto>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'INPUT  phone_number'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,228" sap2010:WorkflowViewState.IdRef="NTypeInto_8" Text="[row(6).ToString.Replace(&quot;&quot;&quot;&quot;,&quot;&quot;)]">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="https://www.rpahackathon.co.uk/l1/challenge" DesignTimeRectangle="980, 500, 261, 38" ElementType="InputBox" FriendlyName="'INPUT  phone_number'" FullSelectorArgument="&lt;webctrl id='phone_number' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='phone_number' tag='INPUT' type='text' aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;Phone Number&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAQkAAAAqCAYAAACgJ65IAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAExSURBVHhe7d0xToJRFIRR9784bZBCGgoIGEjYAMkzY5SAv8wG3jnJVLz2foGKl8/zZZiZPZtImFndQyR2h9NYb7bj7X0zXlcfZjbRcve5/3Tgvgu3SOSDPNofz+N6vQ5gLrn73H86cB+KWyRSkDwA5pYOpAeLSKQevkEA6UB6sIhEfpMARHogEsBTIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFUIgFU/0YifzWevxwH5pYOpAeLSKw327E/nn+eAbNKB9KDRSR2h9N3PfLANwqYT+4+958OpAeLSPyGIgXJo/wmMbN5lrvP/d8HInuIhJnZ34mEmZVdxhdSNwpACuaGrAAAAABJRU5ErkJggg==" InformativeScreenshot="bf3f98d20a95bafeea4e137abb6ca11a.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Vincix Hackathon' /&gt;" SearchSteps="FuzzySelector, Image" />
+                        </uix:NTypeInto.Target>
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                      </uix:NTypeInto>
+                    </Sequence>
+                    <uix:NClick ClickType="Single" DisplayName="Click 'Submit'" sap:VirtualizedContainerService.HintSize="780,52" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="https://www.rpahackathon.co.uk/l1/challenge" DesignTimeRectangle="790, 806, 356, 48" ElementType="Button" FriendlyName="'Submit'" FullSelectorArgument="&lt;webctrl parentid='challenge' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='challenge' tag='BUTTON' type='button' aaname='Submit' check:text='Submit' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAWgAAAA0CAYAAACn3qLtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAASzSURBVHhe7dzBSxtZAMfx/XPae/+CYnvuH1DBSwUPshf3lFO9iIcFYQ/Sy+4p5KCHSg5SIQcVNlukDrtoqhgUtRhsTNskDZ2g+Nt5mTGZccZiUyd52/0OfKDOvJmMly+vbyb+dHr2UQAA+xBoALBULNDzTk4PXz7V/dxj3cs9AgCkyLTWNNe093qPI4F+VsjowcKTxIsAANJj2msaHG5yN9Cm3sQZAIbHNDg8k+4G2kyxk04AAAyOaXEs0Kw5A8DwmRbHAp00EAAweAQaACxFoAHAUgQaACxFoAHAUgQaACxFoAHAUgQaACxFoAHAUgQaACxFoAHAUgQaACxFoJGiUU1travUasq9VHdzz5sqny5rtjCacM4tbTpqeNdqnL5IPp6S6XcV7/7bKu0lHwfuEoFGSkY1W6n5RW5X5JwUlD8w1lX8VAuC3VRpN5Nw7i0MKdCzp01z4yrvh/f/odVWW9UB3wt+fAQa6fjrtapeyNz6ssaTjudnlP1QU2mnz1n0kAKdbFlla+4FPxICjVRMvTOz57acreTj341A43+AQCMVY0cVL1lSaff2M+TFujnjUIuxYy9UbHuH2o5mr/aFAj3+9rXKrhngb657qPybieg1HH98eX9U0weHalz4Y3XZVqO2pKn8I41sFOLX2Yjev7/E0VRx0/zshzlpI9a4CwQa6QiWOHRR0erWjEaSxlzTV6CbXmwvzUPHdX+N+2RP1U582yqXf+ldIxhfbdXkthxl32Q0VniuueOKXG+/Wz9U9bImZ/c3Ta5lNPn3uo7NdS729LsX76vrRAM9ofHijKaK3lhvb+Nswfu3+XlGk9/zABQIEGikZvyt40fObF5Eq/VtrZazml67NrsN9BPoTiydazFc82a25nPPtzV3fby3bz4U3Hu5X7X6xRyQjo+iDyy7/wvY6e2LBvoKSxxIB4FGyiaU2S503tzoLiuYrV1RcSc6s+4r0J/XNRYZ6/NDGloDD8a7Z9nYWP9zK8pHwu3pLov09hFoDBKBxmC9ymiu7M2sO0u9bS9+vVlrv2vQ0bGB/UNzsV5cvzL+xs8NziHQGBYCjeHIL6lk3oV2HU0H+wg0EEWgMSTx6N4c6Kyc8+jYq3h+6xIHgcZ/CYFGKsb293R8utB5fS3p+EiwvqsPS9116G5U/4mOHT/wH9YlBtrE8hseEqYZaNWXb/W2CnBbBBqpmA1eXzPvGVc/OVrpfM07+Kp33UTO2y68KK6Fzgu9mucc+eNXazW5F001bphBN76Yr403VT4paHF3SYtH28GbI00526FwpxroGa20zDW83/W9/7pfdvPn0HGgPwQaqRn5M6uV9xUvrp0ngt3Nbde8oCbPrjuv5oWGN1p7ym98fQ3a/6JKZ3hnS/yiSqqB9qwtqPi5d+Nl/pgS7gCBBgBLEWgAsBSBBgBLEWgAsBSBBgBLEWgAsBSBBgBLEWgAsBSBBgBLEWgAsBSBBgBLEWgAsFQs0PdzjxMHAgAGx7Q4FuiHL58mDgYADI5pcSzQ805ODxaeJJ4AAEifabBpcSzQxrNChkgDwBCY9poGh5scCbRh6m2m2KxJA0D6TGtNc8Mz5yuxQAMA7ECgAcBKH/UvCNPgaP8oIzEAAAAASUVORK5CYII=" InformativeScreenshot="994530763c2317ac9285da925fec2af9.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Vincix Hackathon' /&gt;" SearchSteps="FuzzySelector, Image" Text="Submit" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='BUTTON' type='button' /&gt;" />
+                      </uix:NClick.Target>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </uix:NClick>
+                  </Sequence>
+                </ActivityAction>
+              </ui:ForEachRow.Body>
+            </ui:ForEachRow>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp BrowserType="Chrome" IconBase64="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" InformativeScreenshot="4efc3f3c4db1b9e6b6c9716c97d47b39.png" Selector="&lt;html app='chrome.exe' title='Hackatlon - Level01 - Init'/&gt;" Url="https://www.rpahackathon.co.uk/l1" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
